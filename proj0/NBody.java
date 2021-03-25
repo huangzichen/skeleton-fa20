@@ -43,12 +43,12 @@ public class NBody {
             StdDraw.pause(10);
         }
 
-        StdOut.printf("%d\n", bodies.length);
+        StdOut.printf("%d\n", Bodies.length);
         StdOut.printf("%.2e\n", radius);
-        for (int i = 0; i < bodies.length; i++) {
+        for (int i = 0; i < Bodies.length; i++) {
         StdOut.printf("%11.4e %11.4e %11.4e %11.4e %11.4e %12s\n",
-                      bodies[i].xxPos, bodies[i].yyPos, bodies[i].xxVel,
-                      bodies[i].yyVel, bodies[i].mass, bodies[i].imgFileName);   
+                      Bodies[i].xxPos, Bodies[i].yyPos, Bodies[i].xxVel,
+                      Bodies[i].yyVel, Bodies[i].mass, Bodies[i].imgFileName);   
         }
     }
 
